@@ -11,4 +11,5 @@ end
 
 
 def reduce(source, sp = nil)
-  
+  if sp = nil 
+    
