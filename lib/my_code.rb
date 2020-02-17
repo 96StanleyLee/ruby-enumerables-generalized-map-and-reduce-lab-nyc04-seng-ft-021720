@@ -18,8 +18,7 @@ def reduce(source, sp = nil)
     accum = s[0] 
     i = 1
   end 
-  
-  i = 0 
+
   while i < source.length do 
     accum = yield(source[i])
     i += 1 
