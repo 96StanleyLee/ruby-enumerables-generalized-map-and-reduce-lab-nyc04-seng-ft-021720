@@ -1,5 +1,5 @@
 # Your Code Here
-def map(source)
-  
+def map(source, n)
+  source.map 
   
 end 
