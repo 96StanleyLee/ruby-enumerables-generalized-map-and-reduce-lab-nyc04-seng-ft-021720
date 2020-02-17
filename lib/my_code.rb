@@ -13,8 +13,10 @@ end
 def reduce(source, sp = nil)
   if sp
     accum = sp 
+    i = 0 
   else 
     accum = 0 
+    i = 1
   end 
   
   i = 0 
