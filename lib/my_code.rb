@@ -10,4 +10,5 @@ def map(source)
 end 
 
 
-def reduce(source, starting = 0
+def reduce(source, sp = nil)
+  
