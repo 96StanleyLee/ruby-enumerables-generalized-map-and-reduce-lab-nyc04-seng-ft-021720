@@ -15,7 +15,7 @@ def reduce(source, sp = nil)
     accum = sp 
     i = 0 
   else 
-    accum = s[0] 
+    accum = source[0] 
     i = 1
   end 
 
