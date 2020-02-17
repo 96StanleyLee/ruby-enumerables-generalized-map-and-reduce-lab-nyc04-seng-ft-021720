@@ -20,7 +20,7 @@ def reduce(source, sp = nil)
   end 
 
   while i < source.length do 
-    accum = yield(source[i])
+    accum = yield(accum,source[i])
     i += 1 
   end 
   
